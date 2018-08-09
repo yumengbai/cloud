@@ -8,6 +8,10 @@ vpn
 
 2：wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/YankeeBBR/master/bbr.sh && bash bbr.sh install
 
+
+(wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh)
+
+
 蓝底窗口按TAB键选NO
 
 选择重启 Y
@@ -21,6 +25,8 @@ vpn
 4：bash bbr.sh start
 
 5：wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh && chmod +x shadowsocksR.sh
+
+(wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh&& chmod +x shadowsocksR.sh)
 
 6：./shadowsocksR.sh
 
