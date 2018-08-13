@@ -1,0 +1,7 @@
+sudo -i
+yum install wget -y
+wget http://35.190.226.114/down/installvpn.sh
+chmod +x installvpn.sh
+./installvpn.sh
+防火墙规则
+tcp:9090;tcp:9091:tcp:80;udp:1701;udp:500;udp:4500;udp:1194
